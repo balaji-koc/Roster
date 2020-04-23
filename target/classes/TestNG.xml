@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KyTe Driver Rostering Test Automation Test Suite">
+<listeners>	
+	<listener class-name="com.roaster.reportListener.ExtentReporterNG" />
+	<listener class-name="com.roaster.reportListener.TestRetryTransformers" />
+	</listeners>	
+	<test name="KyTe Driver Rostering ">		
+	<classes>			
+	
+	<class name="com.roster.TestCases.ShiftMapTest"></class>		
+	</classes>	
+</test>
+</suite>
